@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className="relative px-4 py-4 bg-[#FFF8E9] flex justify-between items-center"
+                className="relative px-4 py-4 font-inter bg-[#FFF8E9] flex justify-between items-center"
                 style={{ backgroundImage: `url(${Bg})` }}
             >
                 <a href="#">
@@ -40,7 +40,7 @@ const Navbar = () => {
                     <li>
                         <div className="relative mx-auto text-gray-600">
                             <input
-                                className="border border-[#F26414] bg-[#FFF8E9] rounded-3xl placeholder-current h-12 w-[50rem] px-8 pl-14  text-base focus:outline-none"
+                                className="border font-inter border-[#F26414] bg-[#FFF8E9] rounded-3xl placeholder-current h-12 w-[50rem] px-8 pl-14  text-base focus:outline-none"
                                 type="search"
                                 name="search"
                                 placeholder="Search for names......"
@@ -66,7 +66,7 @@ const Navbar = () => {
                 </ul>
 
 
-
+                {/* cart and list buttons */}
                 <div className="hidden lg:flex">
                     <div className="flex  pr-44 space-x-8">
                         <div className="rounded-full bg-[#FE9B64] bg-opacity-50 w-16 h-16 flex items-center justify-center">
@@ -94,9 +94,7 @@ const Navbar = () => {
                                 stroke="currentColor"
                                 className="h-8 w-8 text-white"
                             >
-                                <svg width="24" height="24" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0451 11.0772V10.8972C11.0451 7.64077 13.2497 4.79751 16.4035 3.98654C17.5692 3.68678 18.7918 3.68678 19.9576 3.98654C23.1113 4.79751 25.316 7.64078 25.316 10.8972V11.0772H27.571C28.4291 11.0772 29.1575 11.7066 29.2819 12.5557L29.6104 14.7977C30.2571 19.2118 30.2571 23.6967 29.6104 28.1108C29.298 30.2425 27.5791 31.8905 25.4361 32.1127L24.4915 32.2107C20.2954 32.6458 16.0656 32.6458 11.8696 32.2107L10.9249 32.1127C8.78198 31.8905 7.06303 30.2425 6.7507 28.1108C6.10393 23.6967 6.10393 19.2118 6.7507 14.7977L7.07919 12.5557C7.2036 11.7066 7.93194 11.0772 8.79011 11.0772H11.0451ZM16.9647 6.16884C17.7623 5.96374 18.5988 5.96374 19.3964 6.16884C21.5542 6.72371 23.0627 8.66911 23.0627 10.8972V11.0772H13.2984V10.8972C13.2984 8.66911 14.8068 6.72371 16.9647 6.16884ZM11.0451 13.3305V16.7105C11.0451 17.3327 11.5495 17.8371 12.1718 17.8371C12.794 17.8371 13.2984 17.3327 13.2984 16.7105V13.3305H23.0627V16.7105C23.0627 17.3327 23.5671 17.8371 24.1893 17.8371C24.8116 17.8371 25.316 17.3327 25.316 16.7105V13.3305H27.1181L27.3809 15.1244C27.9959 19.3219 27.9959 23.5866 27.3809 27.7842C27.218 28.896 26.3214 29.7555 25.2037 29.8714L24.259 29.9694C20.2175 30.3885 16.1435 30.3885 12.102 29.9694L11.1574 29.8714C10.0397 29.7555 9.14309 28.896 8.98019 27.7842C8.36517 23.5866 8.36517 19.3219 8.98019 15.1244L9.24302 13.3305H11.0451Z" fill="#F26414" />
-                                </svg>
+
 
 
                             </svg>
