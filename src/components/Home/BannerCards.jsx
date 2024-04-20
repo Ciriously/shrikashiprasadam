@@ -9,7 +9,7 @@ const BannerCards = () => {
         <div className="flex justify-center">
             <section
                 id="Projects"
-                className="w-max items-center font-inknut  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center justify-center gap-y-8 gap-x-8 mt-10 mb-5"
+                className="w-max items-center  font-inknut  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center justify-center gap-y-8 gap-x-8 mt-10 mb-5"
             >
                 <div className="relative w-[300px] h-[380px]  rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
                     style={{ backgroundImage: `url(${Brassitems})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>

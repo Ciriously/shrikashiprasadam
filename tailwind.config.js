@@ -6,6 +6,8 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         inknut: ["Inknut Antiqua"],
+        inder: ["Inder", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"], // Add the "Poppins" font here
       },
     },
   },
