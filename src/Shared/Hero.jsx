@@ -18,9 +18,9 @@ const Hero = () => {
 
     // Define an array of background images
     const images = [
-        "https://source.unsplash.com/random/1",
-        "https://source.unsplash.com/random/2",
-        "https://source.unsplash.com/random/3"
+        "https://source.unsplash.com/featured/3840x2160/?nature",
+        "https://source.unsplash.com/featured/3840x2160/?architecture",
+        "https://source.unsplash.com/featured/3840x2160/?technology"
     ];
 
     return (

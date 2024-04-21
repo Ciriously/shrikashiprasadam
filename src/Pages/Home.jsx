@@ -7,6 +7,7 @@ import homeSvg from "../assets/Hero/home.svg";
 import BannerCards from '../components/Home/BannerCards';
 import BestSeller from '../components/Home/BestSeller';
 import NewArrivals from '../components/Home/NewArrivals';
+import Categories from '../components/Home/Categories';
 
 const Home = () => {
 
@@ -27,11 +28,12 @@ const Home = () => {
                 <BestSeller />
 
             </div>
-            <div className="w-2/3 mx-auto mt-20 lg:mt-[14rem]">
+            <div className="w-2/3 mx-auto mb-44 mt-20 lg:mt-[14rem]">
 
                 <NewArrivals />
 
             </div>
+            <Categories />
         </div>
     );
 };
