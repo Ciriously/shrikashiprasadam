@@ -148,35 +148,7 @@ const BentoGrids = () => {
                             </h3>
                         </a>
                     </div>
-                    <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
-                        <a
-                            href=""
-                            className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
-                        >
-                            <img
-                                alt=""
-                                className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-                            <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                                Image 1
-                            </h3>
-                        </a>
-                    </div>  <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
-                        <a
-                            href=""
-                            className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
-                        >
-                            <img
-                                alt=""
-                                className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-                            <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                                Image 1
-                            </h3>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </section>
