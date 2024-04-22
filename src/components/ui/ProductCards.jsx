@@ -3,8 +3,7 @@ import React from 'react';
 const ProductCards = ({ products, header, seeAllButton }) => {
     return (
         <div>
-            {/* Header Section - Starts Here */}
-            <div className="flex mx-auto justify-between font-inter items-center mb-2">
+            <div className="flex mx-6 justify-between font-inter items-center mb-2">
                 <h2 className="text-3xl font-bold">{header}</h2>
                 {seeAllButton && (
                     <button className="text-[#F26414] font-poppins text-xl underline hover:text-orange-700 font-regular">

@@ -36,8 +36,8 @@ const products = [
 const BestSeller = () => {
     return (
         <div className="relative">
-            <img src={bg1} className="absolute bottom-[25rem] -left-[20rem]" alt="Background" />
-            <img src={bg2} className="absolute bottom-[22rem] w-60 -right-[18rem]" alt="Background" />
+            {/* <img src={bg1} className="absolute bottom-[25rem] -left-[20rem]" alt="Background" /> */}
+            {/* <img src={bg2} className="absolute bottom-[22rem] w-60 -right-[18rem]" alt="Background" /> */}
 
             <ProductCards products={products} header="Our Bestseller" seeAllButton="See All" />
         </div>

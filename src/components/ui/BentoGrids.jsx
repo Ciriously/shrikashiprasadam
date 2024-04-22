@@ -5,13 +5,13 @@ const BentoGrids = () => {
         <div><section className="bg-[#FDF7EB]">
             <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
-                    <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
+                    <div className="col-span-2 sm:col-span-1 md:col-span-1  h-auto md:h-full flex flex-col">
                         <a
                             href=""
                             className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
                         >
                             <img
-                                src="https://source.unsplash.com/featured/?religious"
+                                src="https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/ram-Photoroom.jpg"
                                 alt=""
                                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                             />
@@ -27,7 +27,7 @@ const BentoGrids = () => {
                             className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
                         >
                             <img
-                                src="https://source.unsplash.com/featured/?religious/3"
+                                src="https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/fbctgva_2024-04-16T04_09_41.002Z_output_2.jpeg"
                                 alt=""
                                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                             />

@@ -39,8 +39,8 @@ const products = [
 const NewArrivals = () => {
     return (
         <div className="relative">
-            <img src={bg1} className="absolute bottom-[25rem] -left-[20rem]" alt="Background" />
-            <img src={bg2} className="absolute bottom-[25rem] -right-[18rem]" alt="Background" />
+            {/* <img src={bg1} className="absolute bottom-[25rem] -left-[20rem]" alt="Background" /> */}
+            {/* <img src={bg2} className="absolute bottom-[25rem] -right-[18rem]" alt="Background" /> */}
 
             <ProductCards products={products} header="New Arrivals" />
         </div>

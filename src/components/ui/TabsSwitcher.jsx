@@ -8,9 +8,8 @@ import {
 } from "@material-tailwind/react";
 import Idols from "../Home/Categories/Idols";
 
-
 const commonTabClassName = "font-poppins text-xl md:text-3xl focus:outline-none";
-const activeTabClassName = "text-[#F26414] border-[#F26414] font-medium";
+const activeTabClassName = "text-[#F26414] font-medium";
 const inactiveTabClassName = "text-[#848484] font-regular";
 
 const tabsData = [
@@ -21,7 +20,7 @@ const tabsData = [
 ];
 
 function TabsSwitcher() {
-    const [activeTab, setActiveTab] = useState("temple");
+    const [activeTab, setActiveTab] = useState(tabsData[0].value); // Default to first label
 
     const handleTabClick = (value) => setActiveTab(value);
 
@@ -30,13 +29,13 @@ function TabsSwitcher() {
             <div className="w-full max-w-7xl">
                 <div className="relative z-10 min-h-screen px-4 py-8 sm:px-8 lg:px-16 flex flex-col justify-center">
                     <Tabs value={activeTab} className="w-full ">
-                        <TabsHeader className="rounded-none  bg-transparent p-4 md:p-8" indicatorProps={{ className: "bg-transparent border-b-4 shadow-none rounded-none" }}>
+                        <TabsHeader className="rounded-none bg-transparent p-4 md:p-8" indicatorProps={{ className: "bg-transparent border-b-4 border-orange-400 shadow-none rounded-none" }}>
                             {tabsData.map(({ label, value }) => (
                                 <Tab
                                     key={value}
                                     value={value}
                                     onClick={() => handleTabClick(value)}
-                                    className={`${commonTabClassName} ${activeTab === value ? activeTabClassName : inactiveTabClassName} border-b-4`}
+                                    className={`${commonTabClassName} ${activeTab === value ? activeTabClassName : inactiveTabClassName}`}
                                 >
                                     {label}
                                 </Tab>

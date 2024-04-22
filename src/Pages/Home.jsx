@@ -1,4 +1,8 @@
 import React from 'react';
+
+import bg1 from "../assets/bg/bg-r-1.png";
+import bg2 from "../assets/bg/bg-r-1.png";
+
 import Navbar from '../Shared/Navbar';
 import Banner from '../Shared/Banner';
 import Carousel from '../Shared/carousel';
@@ -26,11 +30,11 @@ const Home = () => {
                     <BannerCards />
                 </div>
             </div>
-            <div className="w-2/3 mx-auto mt-20 lg:mt-[20rem]">
+            <div className="w-3/4 mx-auto mt-20 lg:mt-[20rem]">
                 <BestSeller />
 
             </div>
-            <div className="w-2/3 mx-auto mb-44 mt-20 lg:mt-[14rem]">
+            <div className="w-3/4 mx-auto mb-44 mt-20 lg:mt-[14rem]">
 
                 <NewArrivals />
 
