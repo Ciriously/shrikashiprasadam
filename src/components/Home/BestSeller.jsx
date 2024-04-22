@@ -7,28 +7,28 @@ import ProductCards from '../ui/ProductCards';
 // Sample product data
 const products = [
     {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/image-Photoroom.jpg",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "9 Mukhi Rudraksha",
         price: 149,
         discountedPrice: 199
     },
     {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        brand: "Brand A",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/3.png",
+        brand: "Divine Temples Heavy",
         productName: "Product A",
         price: 149,
         discountedPrice: 199
     }, {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Ganesh Ji Idol brass metal",
         price: 149,
         discountedPrice: 199
     }, {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/DSC05857copy_1_900x.jpg",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Rudraksha malas",
         price: 149,
         discountedPrice: 199
     },
