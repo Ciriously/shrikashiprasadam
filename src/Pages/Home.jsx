@@ -20,10 +20,7 @@ const Home = () => {
 
     return (
         <div className="relative">
-            <Navbar />
-            <div className='bg-[#FECEAD]'>
-                <Banner />
-            </div>
+
             <div className="relative">
                 <Carousel />
                 <div className="absolute z-10 top-full w-full hidden transform -translate-y-1/4 md:-translate-y-1/2 lg:block">

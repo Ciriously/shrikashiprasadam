@@ -5,35 +5,40 @@ import ProductCards from '../../ui/ProductCards';
 // Sample product data
 const products = [
     {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Idols",
         price: 149,
         discountedPrice: 199
     },
     {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Idols",
         price: 149,
         discountedPrice: 199
     }, {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Idols",
         price: 149,
         discountedPrice: 199
     }, {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Idols",
         price: 149,
         discountedPrice: 199
-    },
-    {
-        imageUrl: "https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
         brand: "Brand A",
-        productName: "Product A",
+        productName: "Idols",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png",
+        brand: "Brand A",
+        productName: "Idols",
         price: 149,
         discountedPrice: 199
     },

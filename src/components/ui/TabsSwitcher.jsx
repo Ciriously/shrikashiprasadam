@@ -6,7 +6,11 @@ import {
     Tab,
     TabPanel,
 } from "@material-tailwind/react";
+
 import Idols from "../Home/Categories/Idols";
+import Handicraft from "../Home/Categories/Handicraft";
+import Malas from "../Home/Categories/Malas";
+import Others from "../Home/Categories/Others";
 
 const commonTabClassName = "font-poppins text-xl md:text-3xl focus:outline-none";
 const activeTabClassName = "text-[#F26414] font-medium";
@@ -26,7 +30,7 @@ function TabsSwitcher() {
 
     return (
         <div className="flex justify-center items-center min-h-screen">
-            <div className="w-full max-w-7xl">
+            <div className="w-full max-w-[90rem]">
                 <div className="relative z-10 min-h-screen px-4 py-8 sm:px-8 lg:px-16 flex flex-col justify-center">
                     <Tabs value={activeTab} className="w-full ">
                         <TabsHeader className="rounded-none bg-transparent p-4 md:p-8" indicatorProps={{ className: "bg-transparent border-b-4 border-orange-400 shadow-none rounded-none" }}>
@@ -46,24 +50,25 @@ function TabsSwitcher() {
                                 <Idols />
                             </TabPanel>
                             <TabPanel value="Malas">
-                                <p className="text-lg font-semibold mb-2">Fort 1</p>
-                                <p>Description for fort 1</p>
-                                {/* Add more fort contents here */}
+                                < Malas />
+
                             </TabPanel>
                             <TabPanel value="Handicraft">
-                                <p className="text-lg font-semibold mb-2">Museum 1</p>
-                                <p>Description for museum 1</p>
-                                {/* Add more museum contents here */}
+                                < Handicraft />
+
                             </TabPanel>
                             <TabPanel value="others">
-                                <p className="text-lg font-semibold mb-2">Other 1</p>
-                                <p>Description for other 1</p>
-                                {/* Add more other contents here */}
+                                <Others />
                             </TabPanel>
                         </TabsBody>
+
                     </Tabs>
+
                 </div>
+
+
             </div>
+
         </div>
     );
 }
