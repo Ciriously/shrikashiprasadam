@@ -28,7 +28,7 @@ const BreadCrumbs = ({ crumbs }) => {
                             )}
                             <a
                                 href={crumb.href}
-                                className={`inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white ${index === 0 ? 'me-2.5' : ''}`}
+                                className={`inline-flex items-center text-md px-4 font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white ${index === 0 ? 'me-2.5' : ''}`}
                             >
                                 {crumb.icon && (
                                     <svg

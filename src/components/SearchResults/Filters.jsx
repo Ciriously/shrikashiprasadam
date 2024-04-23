@@ -3,6 +3,7 @@ import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import SearchCards from './SearchCards'
+import BreadCrumbs from '../ui/BreadCrumbs'
 
 const sortOptions = [
     { name: 'Most Popular', href: '#', current: true },
@@ -42,6 +43,10 @@ const filters = [
     },
 ]
 
+const crumbs = [
+    { text: 'Home', href: '#' },
+    { text: 'Rudraksha', href: '#' },
+];
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -146,7 +151,7 @@ export default function Example() {
                 </Transition.Root>
 
                 <main className="mx-8 max-w-8xl px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-baseline justify-between border-b border-black-200 pb-6 pt-24">
+                    <div className="flex items-baseline justify-between">
 
 
 
@@ -256,6 +261,9 @@ export default function Example() {
 
                             {/* Product grid */}
                             <div className="lg:col-span-3">
+                                <div className="bg-white w-full p-8 rounded-xl shadow-md mb-4">
+                                    <BreadCrumbs crumbs={crumbs} />
+                                </div>
                                 < SearchCards />
                             </div>
                         </div>
