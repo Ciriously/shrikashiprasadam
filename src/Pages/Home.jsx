@@ -27,18 +27,22 @@ const Home = () => {
                     <BannerCards />
                 </div>
             </div>
-            <div className="w-3/4 mx-auto mt-20 lg:mt-[20rem]">
+            <div className="w-4/5 mx-auto mt-20 lg:mt-[20rem]">
                 <BestSeller />
 
             </div>
-            <div className="w-3/4 mx-auto mb-44 mt-20 lg:mt-[14rem]">
+            <div className="w-4/5 mx-auto mb-44 mt-20 lg:mt-[14rem]">
 
                 <NewArrivals />
 
             </div>
             <Categories />
             <Hero />
-            <DailyDeals />
+            <div className="w-4/5 mx-auto ">
+
+                <DailyDeals />
+            </div>
+
         </div>
     );
 };

@@ -2,13 +2,14 @@ import React from 'react'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 import Logo from "../assets/shared/Footerlogo.svg"
+import Footerhead from "../assets/shared/footerhead.svg"
 
 const Footer = () => {
     return (
         <div><>
-
-            <footer className="bg-[#F49817] bg-opacity-25">
-                <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+            <img src={Footerhead} className='flex flex-1 w-full' />
+            <footer className="bg-[#FFEFE0] bg-opacity-25">
+                <div className="mx-auto max-w-screen-2xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>
                             <div className="flex justify-center text-teal-600 sm:justify-start">
@@ -92,7 +93,7 @@ const Footer = () => {
 
                         </div>
 
-                        <div className="grid grid-cols-1 gap-8 w-max sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
+                        <div className="grid grid-cols-1 gap-8 w-max sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
                             <div className="text-center sm:text-left">
                                 <p className="text-xl font-inter font-bold text-gray-900">About Us</p>
                                 <ul className="mt-8 text-md space-y-4 w-max font-inter ">

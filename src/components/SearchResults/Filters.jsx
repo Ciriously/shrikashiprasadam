@@ -54,7 +54,7 @@ function classNames(...classes) {
 
 export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
-
+    const [isOpen, setIsOpen] = useState(true);
     return (
         <div className="bg-[#FDF7EB]">
             <div>

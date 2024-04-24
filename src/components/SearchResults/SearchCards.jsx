@@ -47,7 +47,10 @@ const SearchCards = () => {
     return (
         <div className="relative">
 
-            <ProductCards products={products} />
+            <ProductCards
+                products={products}
+                addToCartButton="Add to Cart" // Customize the button text here
+            />
         </div>
     )
 }

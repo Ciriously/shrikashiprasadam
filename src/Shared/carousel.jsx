@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-// import Bg1 from "../assets/Hero/home.svg";
-// import Bg2 from "../assets/Hero/secondImage.svg";
-// import Bg3 from "../assets/Hero/thirdImage.svg";
 
 const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
