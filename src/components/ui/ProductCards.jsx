@@ -37,7 +37,7 @@ const ProductCards = ({ products, header, seeAllButton, addToCartButton }) => {
                                         )}
                                         {/* Add to Cart Button */}
                                         {addToCartButton && (
-                                            <button className="bg-[#F26414] text-md font-inter font-medium text-white px-4 py-2 rounded-lg ml-auto">
+                                            <button className="bg-[#F26414] text-md font-inter w-max font-medium text-white px-1 py-2 rounded-lg ml-auto sm:text-lg md:px-1">
                                                 {addToCartButton}
                                             </button>
                                         )}

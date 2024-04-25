@@ -5,7 +5,7 @@ const SearchResults = () => {
 
 
     return (
-        <div className='bg-[#FDF7EB]'>
+        <div className='bg-[#FDF7EB] w-screen'>
 
 
             <Filter />

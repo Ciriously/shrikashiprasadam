@@ -4,6 +4,7 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import SearchCards from './SearchCards'
 import BreadCrumbs from '../ui/BreadCrumbs'
+import Star from '../ui/Star'
 
 const sortOptions = [
     { name: 'Most Popular', href: '#', current: true },
@@ -56,9 +57,10 @@ export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
     const [isOpen, setIsOpen] = useState(true);
     return (
-        <div className="bg-[#FDF7EB]">
+        <div className="bg-[#FDF7EB] font-inter">
             <div>
                 {/* Mobile filter dialog */}
+
                 <Transition.Root show={mobileFiltersOpen} as={Fragment}>
                     <Dialog as="div" className="relative z-40 lg:hidden" onClose={setMobileFiltersOpen}>
                         <Transition.Child
@@ -150,7 +152,7 @@ export default function Example() {
                     </Dialog>
                 </Transition.Root>
 
-                <main className="mx-8 max-w-8xl px-4 sm:px-6 lg:px-8">
+                <main className="mx-4 max-w-8xl px-4 sm:px-6 lg:px-8">
                     <div className="flex items-baseline justify-between">
 
 
@@ -208,19 +210,22 @@ export default function Example() {
                             Products
                         </h2>
 
-                        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
+                        <div className="grid grid-cols-1 font-inter gap-x-8 gap-y-10 lg:grid-cols-5">
                             {/* Filters */}
 
-                            <form className="hidden lg:block bg-white py-4 px-4 rounded-3xl">
+                            <form className="hidden lg:block bg-white py-4 px-4  rounded-3xl">
+                                <h2 className="text-2xl text-[#3A3A3A] font-inter font-semibold ">Filters</h2>
                                 <div className="px-2 py-3 font-Montserrat font-medium text-gray-900">
                                 </div>
 
                                 {filters.map((section) => (
                                     <Disclosure as="div" key={section.id} className="border-b border-gray-300 py-6">
+
                                         {({ open }) => (
                                             <>
                                                 <h3 className="-my-3 flow-root">
-                                                    <Disclosure.Button className="flex  w-full items-center justify-between bg-white py-3 text-sm text-black-400 hover:text-black-500 font-Montserrat">
+
+                                                    <Disclosure.Button className="flex  w-full items-center justify-between bg-white py-3 text-sm text-black-400 hover:text-black-500 font-inter">
                                                         <span className=" font-inter text-lg font-bold text-[#848484]">{section.name}</span>
                                                         <span className="ml-6 flex items-center">
                                                             {open ? (
@@ -249,6 +254,7 @@ export default function Example() {
                                                                 >
                                                                     {option.label}
                                                                 </label>
+
                                                             </div>
                                                         ))}
                                                     </div>
@@ -256,15 +262,21 @@ export default function Example() {
                                             </>
                                         )}
                                     </Disclosure>
+
                                 ))}
+                                <Star />
+
                             </form>
 
                             {/* Product grid */}
-                            <div className="lg:col-span-3">
-                                <div className="bg-white w-full p-8 rounded-xl shadow-md mb-4">
+                            <div className="lg:col-span-4">
+                                <div className="bg-white w-full p-5 rounded-xl shadow-md mb-1">
                                     <BreadCrumbs crumbs={crumbs} />
                                 </div>
-                                < SearchCards />
+                                <div className='px-4'>
+                                    < SearchCards />
+
+                                </div>
                             </div>
                         </div>
                     </section>
