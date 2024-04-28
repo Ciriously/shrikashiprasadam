@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 import Cart from "../assets/shared/Cart.svg";
@@ -61,7 +62,7 @@ const Navbar = () => {
                                     name="search"
                                     placeholder="Search for names......"
                                 />
-                                <button type="submit" className="absolute left-0 top-0 mt-3 ml-4">
+                                <button type="submit" className="absolute left-0 top-0 mt-5 ml-4">
                                     <svg
                                         className="text-orange-600  h-6 w-6 fill-current"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -70,12 +71,16 @@ const Navbar = () => {
                                         <path d="M55.146 51.887L41.588 37.786c3.486-4.144 5.396-9.358 5.396-14.786 0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c5.428 0 10.642-1.911 14.786-5.396l13.557 14.101c0.571 0.593 1.339 0.92 2.162 0.92 0.779 0 1.518-0.297 2.084-0.837 1.225-1.17 1.276-3.093 0.107-4.317zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z" />
                                     </svg>
                                 </button>
-                                <button className="mx-4 mr-4">
-                                    <img src={Cart} alt="Cart" className="h-full ml-14 w-auto" />
-                                </button>
-                                <button>
-                                    <img src={List} alt="List" className="h-full mx-4 w-auto" />
-                                </button>
+                                <Link to="/cart">
+                                    <button className="mx-4 mr-4">
+                                        <img src={Cart} alt="Cart" className="h-full ml-14 w-auto" />
+                                    </button>
+                                </Link>
+                                <Link to="/wishlist">
+                                    <button>
+                                        <img src={List} alt="List" className="h-full mx-4 w-auto" />
+                                    </button>
+                                </Link>
                             </form>
 
                         </div>
@@ -90,9 +95,11 @@ const Navbar = () => {
 
                     </div>
                     <a href="">
-                        <button className=" py-3 w-24 m-1 text-xl text-center font-bold bg-[#F26414] border rounded-md text-white  hover:bg-orange-400">
-                            Log in
-                        </button>
+                        <Link to="/Auth">
+                            <button className=" py-3 w-24 m-1 text-xl text-center font-bold bg-[#F26414] border rounded-md text-white  hover:bg-orange-400">
+                                Log in
+                            </button>
+                        </Link>
                     </a>
                 </div>
 
