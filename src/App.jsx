@@ -15,10 +15,10 @@ export default function App() {
   return (
     <Router>
       <div className="relative">
-        <Navbar />
+        {/* <Navbar />
         <div className='bg-[#FECEAD]'>
           <Banner />
-        </div>
+        </div> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchResults />} />
@@ -28,7 +28,6 @@ export default function App() {
           <Route path="/Sign-in" element={<Signin />} />
           <Route path="/Sign-up" element={<Signup />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
