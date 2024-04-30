@@ -26,7 +26,7 @@ function ForgotPassword({ setAuthState, setUser }) {
             {isForgotPassword ? (
                 <UpdatePassword />
             ) : (
-                <div className="w-full max-w-md px-14 py-10 bg-white shadow-md rounded-xl">
+                <div className="w-full max-w-lg px-14 py-16 bg-white shadow-md rounded-xl">
                     <div className="flex flex-col justify-center items-center">
                         <h1 className="text-3xl font-semibold mb-4">Reset Password</h1>
                         <p className="text-sm text-gray-600 mb-4">Enter the email address associated with your kashiprasadam account.</p>

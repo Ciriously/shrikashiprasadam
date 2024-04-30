@@ -16,7 +16,7 @@ function UpdatePassword({ setAuthState, setUser }) {
 
     return (
         <div className="flex items-center font-inter justify-center h-screen">
-            <div className="w-full max-w-md px-14 py-10 bg-white shadow-md rounded-xl">
+            <div className="w-full max-w-xl px-14 py-10 bg-white shadow-md rounded-xl">
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-3xl font-semibold mb-4">Update Password</h1>
                 </div>
